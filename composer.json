@@ -7,7 +7,7 @@
         "phpstan"
     ],
     "homepage": "https://github.com/rycks/dolibarr-stubs",
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "require-dev": {
         "php": "~7.4",
         "php-stubs/generator": "^0.8.0"
