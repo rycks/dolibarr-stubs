@@ -9,7 +9,7 @@ FILE="dolibarr-stubs.php"
 
 set -e
 
-test -f "$FILE"
+# test -f "$FILE"
 test -d "source/dolibarr"
 
 # Exclude globals.
