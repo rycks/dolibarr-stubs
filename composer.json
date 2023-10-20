@@ -1,5 +1,25 @@
 {
+    "name": "caprel/dolibarr-stubs",
+    "description": "Dolibarr functions stubs for static analysis.",
+    "keywords": [
+        "dolibarr",
+        "static analysis",
+        "phpstan"
+    ],
+    "homepage": "https://github.com/rycks/dolibarr-stubs",
+    "license": "MIT",
     "require-dev": {
-        "php-stubs/generator": "^0.8.4"
+        "php": "~7.4",
+        "php-stubs/generator": "^0.8.0"
+    },
+    "suggest": {
+        "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions"
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "cleanup": "git status --short --ignored | sed -n -e 's#^!! ##p' | xargs -r rm -vrf"
+    },
+    "scripts-descriptions": {
+        "cleanup": "Remove all ignored files."
     }
 }
