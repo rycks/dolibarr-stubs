@@ -1,6 +1,6 @@
 # Dolibarr Stubs
 
-[![Packagist](https://packagist.org/packages/caprel/dolibarr-stubs)
+[Packagist](https://packagist.org/packages/caprel/dolibarr-stubs)
 
 This package provides stub declarations for [Dolibarr](https://dolibarr.org/)
 functions, classes and interfaces.
