@@ -1,0 +1,25 @@
+{
+    "require": {
+        "php": "*",
+        "ext-gettext": "*",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "phpstan/phpstan": "^1.10"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "installer-paths": {
+            "dolibarr/packages/{$name}/": [
+                "dolibarr/dolibarr"
+            ],
+            "{$name}/": [
+                "type:dolibarr"
+            ]
+        }
+    },
+    "require-dev": {
+        "php-stubs/generator": "^0.8.4"
+    }
+}
