@@ -22,4 +22,6 @@ test -d "source/dolibarr"
     --classes \
     --interfaces \
     --traits \
+    --constants \
+    --documented-globals \
     --out="$FILE"
