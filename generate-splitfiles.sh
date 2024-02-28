@@ -4,7 +4,7 @@
 #
 
 HEADER=$'/**\n * Generated stub declarations for Dolibarr.\n * @see https://dolibarr.org\n * @see https://github.com/rycks/dolibarr-stubs\n */'
-VERSION="18"
+VERSION="19"
 
 RUNFROM=$PWD
 DEST="${RUNFROM}/dolibarr-${VERSION}"
