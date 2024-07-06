@@ -1,9 +1,13 @@
-# Dolibarr Stubs
+# Dolibarr Stubs Tools (extractor)
 
 [Packagist](https://packagist.org/packages/caprel/dolibarr-stubs)
 
-This package provides stub declarations for [Dolibarr](https://dolibarr.org/)
+This package provides tools to extracts stub for [Dolibarr](https://dolibarr.org/)
 functions, classes and interfaces.
+
+All of stubs (results) are available on a dedicated repository, all versions of
+dolibarr since dolibarr-10.0 are concerned ! [dolibarr-stubs-all]https://github.com/rycks/dolibarr-stubs-all
+
 These stubs can help plugin and theme developers leverage IDE completion
 and static analysis tools like [PHPStan](https://github.com/phpstan/phpstan).
 
@@ -36,9 +40,8 @@ parameters:
 
 ## Support package maintenance
 
-Please consider supporting this work.
+Please consider supporting this work : https://cap-rel.fr/services/soutien-rd/ or [buy me a coffee for example](https://shop.cap-rel.fr/cat/112)
 
-https://cap-rel.fr/services/soutien-rd/
 
 Thank you!
 
